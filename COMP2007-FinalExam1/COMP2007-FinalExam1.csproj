@@ -130,6 +130,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\GenresController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -137,6 +138,8 @@
     <Compile Include="Models\Album.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\C__MigrationHistory.cs" />
+    <Compile Include="Models\database_firewall_rules.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MVCMusicStoreContext.cs" />
     <Compile Include="Models\Order.cs" />
@@ -178,6 +181,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\AlbumList.cshtml" />
+    <Content Include="Views\Home\ArtistList.cshtml" />
+    <Content Include="Views\Genres\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

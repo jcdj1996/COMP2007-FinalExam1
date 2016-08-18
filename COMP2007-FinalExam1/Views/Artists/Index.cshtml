@@ -1,17 +1,18 @@
-﻿@model IEnumerable<COMP2007_FinalExam1.Models.Genre>
+﻿@model IEnumerable<COMP2007_FinalExam1.Models.Artist>
 
 @{
-    ViewBag.Title = "Genres";
+    ViewBag.Title = "Artists";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Genres</h2>
+<h2>Artists</h2>
 
 <table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Name)
         </th>
+        
     </tr>
 
 @foreach (var item in Model) {
@@ -19,7 +20,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.Name)
         </td>
-       
+        
     </tr>
 }
 

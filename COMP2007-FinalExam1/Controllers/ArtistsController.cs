@@ -7,7 +7,11 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using COMP2007_FinalExam1.Models;
-
+/*
+James Jennings
+    200300365
+    18 Aug 2016
+*/
 namespace COMP2007_FinalExam1.Controllers
 {
     public class ArtistsController : Controller

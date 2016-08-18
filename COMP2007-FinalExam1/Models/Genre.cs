@@ -1,3 +1,8 @@
+/*
+James Jennings
+    200300365
+    18 Aug 2016
+*/
 namespace COMP2007_FinalExam1.Models
 {
     using System;
